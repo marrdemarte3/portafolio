@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>clase 30 de julio</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="section">
+            <div class="subsection">
+                <h1>Marcela Franco</h1>
+                <p>Estudiante de desarrollo web</p>
+                <div class="status">
+                    <p class="p-status">lalalalalalalalalalalal</p>
+                    <div class="dot"></div>
+                </div>
+                <img class="perfil" src="imagenes/foto.jfif" alt="Marcela Franco">
+            </div>
+            <div class="subsection">
+                <p class="present">tururut ututuru ruutututut utututu tutu tututu tututu tutututu tututu tuutu utututu
+                    tutut ut utu tu tutu</p>
+                <div>
+                    <button class="btn-black">WORK</button>
+                    <button class="btn-lined">CV download</button>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="subsection">
+                <h3>Educación</h3>
+                <p>Opcion 1</p>
+                <div class="tiempo">
+                    <p class="p-tiempo">0000 - 0000</p>
+                </div>
+                <p>Opcion 2</p>
+                <div class="tiempo">
+                    <p class="p-tiempo">0000 - 0000</p>
+                </div>
+            </div>
+            <div class="subsection">
+                <h3>Experiencia</h3>
+                <p>Opcion 1</p>
+                <div class="tiempo">
+                    <p class="p-tiempo">0000 - 0000</p>
+                </div>
+                <p>Opcion 2</p>
+                <div class="tiempo">
+                    <p class="p-tiempo">0000 - 0000</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <form id="form">
+                <div class="field">
+                    <label for="from_name">from_name</label>
+                    <input type="text" name="from_name" id="from_name">
+                </div>
+                <div class="field">
+                    <label for="email_id">email_id</label>
+                    <input type="text" name="email_id" id="email_id">
+                </div>
+                <div class="field">
+                    <label for="message">message</label>
+                    <input type="text" name="message" id="message">
+                </div>
+                <div class="field">
+                    <label for="reply_to">reply_to</label>
+                    <input type="text" name="reply_to" id="reply_to">
+                </div>
+
+                <input type="submit" id="button" value="Send Email">
+            </form>
+        </div>
+    </div>
+
+    <!-- correo -->
+    <script src="email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('FtTL8zXw13JyFIx3g')
+    </script>
+</body>
+
+</html>
